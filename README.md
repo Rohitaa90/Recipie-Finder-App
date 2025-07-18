@@ -1,28 +1,19 @@
-# 🍲 Recipe Finder App
+# Recipe Finder App
 
-A modern **React + Vite** based application to search, view, and explore food recipes from around the world.
+## Overview
 
----
+The Recipe Finder App is a web application that allows users to search for recipes by name or ID. It fetches recipe details from [The Meal Database API](https://www.themealdb.com/api.php) and displays information such as ingredients, instructions, and a video tutorial (if available) for each recipe.
 
-## 📌 Description
+## Features
 
-This Recipe Finder App allows users to:
-- Browse a collection of recipes
-- View detailed ingredients and instructions
-- Watch video instructions using YouTube integration
-- Use a clean, responsive UI built with React and Remix Icons
+- Search for recipes by name or ID.
+- View detailed information about a specific recipe.
+- Watch video tutorials for selected recipes.
 
-It’s optimized for fast performance and scalability using **Vite** as the frontend build tool.
+## Technologies Used
 
----
+- React: JavaScript library for building user interfaces.
+- React Router: Library for handling navigation in a React application.
+- React Player: React component for playing YouTube videos.
+- The Meal Database API: Provides recipe data for the app.
 
-## 🚀 Features
-
-- 🔍 **Search Recipes** by name or keyword
-- 🧾 **Detailed Views**: Ingredients, instructions, and videos
-- 🎥 Integrated **React Player** for cooking videos
-- 🧭 **Client-side Routing** with React Router
-- 🎨 **Responsive UI** using CSS and Remix Icons
-- ⚡ Fast development using **Vite**
-
----
